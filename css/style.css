@@ -401,7 +401,11 @@ footer {
 .menu-page .nav-item:nth-child(3) a {
   color: #d4af37 !important;
 }
-
+@media (max-width: 1280px) {
+  iframe {
+    width: 100%;
+  }
+}
 /* スマホ版 */
 @media (max-width: 768px) {
   html {
@@ -436,7 +440,7 @@ footer {
   }
 
   .about-box img {
-    padding: 0 0 3rem 0;
+    padding: 0.5rem 0.5rem 3rem 0.5rem;
   }
   .info {
     padding: 0;
